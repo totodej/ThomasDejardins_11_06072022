@@ -1,0 +1,66 @@
+.error-404 {
+  text-align: center;
+  color: rgba(255, 96, 96, 1);
+  margin: auto;
+  padding-bottom: 100px;
+  width: 86.12%;
+}
+
+.error-404 h2 {
+  font-size: 288px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.error-404 p {
+  font-size: 36px;
+  margin-block-start: 0px;
+  margin-block-end: 182px;
+}
+
+.link-error {
+  color: rgba(255, 96, 96, 1);
+}
+
+@media screen and (max-width: 1000px) {
+  .error-404 p {
+    margin-block-end: 130px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .error-404 h2 {
+    font-size: 225px;
+    margin-top: 65px;
+  }
+
+  .error-404 p {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .error-404 h2 {
+    font-size: 180px;
+    margin-top: 100px;
+  }
+
+  .error-404 p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .error-404 h2 {
+    font-size: 96px;
+    margin-top: 198px;
+  }
+
+  .error-404 p {
+    font-size: 18px;
+  }
+
+  .link-error {
+    font-size: 14px;
+  }
+}
