@@ -1,0 +1,45 @@
+.accordion {
+  width: 45%;
+  margin-bottom: 43px;
+}
+
+.accordion-title {
+  background-color: rgba(255, 96, 96, 1);
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.accordion-title img {
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  right: 32px;
+  top: 16px;
+}
+
+.accordion-content {
+  background-color: rgba(246, 246, 246, 1);
+  color: rgba(255, 96, 96, 1);
+  border-radius: 10px;
+  padding: 40px 20px 27px;
+  margin-top: -14px;
+  line-height: 25px;
+}
+
+.accordion-content li {
+  list-style: none;
+  line-height: 25px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.accommodation-container .accordion-title {
+  height: 52px;
+  line-height: 52px;
+}
