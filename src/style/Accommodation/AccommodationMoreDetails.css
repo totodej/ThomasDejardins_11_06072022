@@ -1,0 +1,7 @@
+.accordion-container {
+  width: 86.12%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
