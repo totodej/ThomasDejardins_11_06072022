@@ -1,0 +1,27 @@
+.background-about {
+  margin: auto;
+  margin-bottom: 31px;
+}
+
+.background-about img {
+  display: block;
+  margin: auto;
+  width: 86.12%;
+  height: 223px;
+  border-radius: 25px;
+  margin-top: 50px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+@media screen and (max-width: 850px) {
+  .background-about img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .background-about img {
+    border-radius: 10px;
+  }
+}
