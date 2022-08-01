@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86.12%;
+  margin: auto;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link {
+  color: rgba(255, 96, 96, 1);
+  margin-left: 57px;
+  text-decoration: none;
+}
+
+.link-active {
+  text-decoration: underline;
+  color: rgba(255, 96, 96, 1);
+  margin-left: 57px;
+}
+
+@media screen and (max-width: 550px) {
+  .link {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .link {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header img {
+    margin-bottom: 20px;
+  }
+}
