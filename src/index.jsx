@@ -14,12 +14,9 @@ root.render(
   <Router>
     <Header />
     <Routes>
-      <Route path="/ThomasDejardins_11_06072022/" element={<Home />} />
-      <Route path="/ThomasDejardins_11_06072022/about" element={<About />} />
-      <Route
-        path="/ThomasDejardins_11_06072022/accommodation/:id"
-        element={<Accommodation />}
-      />
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/accommodation/:id" element={<Accommodation />} />
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
