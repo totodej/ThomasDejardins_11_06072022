@@ -8,7 +8,7 @@ function Header() {
       <img src={logo} alt="logo kasa" />
       <nav>
         <NavLink
-          to="/"
+          to="/home"
           className={({ isActive }) => (isActive ? "link-active" : "link")}
         >
           Accueil
