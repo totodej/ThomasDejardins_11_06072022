@@ -26,10 +26,20 @@
     font-size: 12px;
     margin-left: 30px;
   }
+
+  .link-active {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .link {
+    margin-left: 10px;
+  }
+
+  .link-active {
     margin-left: 10px;
   }
 }
