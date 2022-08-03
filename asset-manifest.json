@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ThomasDejardins_11_06072022/static/css/main.0ab38ea1.css",
-    "main.js": "/ThomasDejardins_11_06072022/static/js/main.880906cf.js",
-    "static/media/background-about.jpg": "/ThomasDejardins_11_06072022/static/media/background-about.161cc9194b8fa99b3ed4.jpg",
-    "static/media/background-home.jpg": "/ThomasDejardins_11_06072022/static/media/background-home.b37df1a62aeac2abe58d.jpg",
-    "index.html": "/ThomasDejardins_11_06072022/index.html",
-    "main.0ab38ea1.css.map": "/ThomasDejardins_11_06072022/static/css/main.0ab38ea1.css.map",
-    "main.880906cf.js.map": "/ThomasDejardins_11_06072022/static/js/main.880906cf.js.map"
+    "main.css": "/ThomasDejardins_11_06072022/home/static/css/main.d1dedf84.css",
+    "main.js": "/ThomasDejardins_11_06072022/home/static/js/main.06b46379.js",
+    "static/media/background-about.jpg": "/ThomasDejardins_11_06072022/home/static/media/background-about.161cc9194b8fa99b3ed4.jpg",
+    "static/media/background-home.jpg": "/ThomasDejardins_11_06072022/home/static/media/background-home.b37df1a62aeac2abe58d.jpg",
+    "index.html": "/ThomasDejardins_11_06072022/home/index.html",
+    "main.d1dedf84.css.map": "/ThomasDejardins_11_06072022/home/static/css/main.d1dedf84.css.map",
+    "main.06b46379.js.map": "/ThomasDejardins_11_06072022/home/static/js/main.06b46379.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ab38ea1.css",
-    "static/js/main.880906cf.js"
+    "static/css/main.d1dedf84.css",
+    "static/js/main.06b46379.js"
   ]
 }
