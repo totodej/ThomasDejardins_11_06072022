@@ -5,33 +5,34 @@ import AccommodationDetails from "../components/Accommodation/AccommodationDetai
 import "../style/Accommodation/Accommodation.css";
 import AccommodationSlide from "../components/Accommodation/AccommodationSlide";
 import AccommodationMoreDetails from "../components/Accommodation/AccommodationMoreDetails";
-/*import Error from "../pages/Error";*/
+import Error from "../pages/Error";
 
 function Accommodation() {
   const params = useParams();
-
+  const logementIds = [];
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  // Trigger when params id is updated
-  useEffect(() => {
-    // vérifier si id est correct sinon redirgier vers 404
-  }, [params.id]);
+  logements.map((logement) => logementIds.push(logement.id));
 
-  return (
-    <div className="accommodation-container">
-      {logements.map((logement, index) => {
-        return logement.id === params.id ? (
-          <div key={`${index}`}>
-            <AccommodationSlide logement={logement} />
-            <AccommodationDetails logement={logement} />
-            <AccommodationMoreDetails logement={logement} />
-          </div>
-        ) : null;
-      })}
-    </div>
-  );
+  if (logementIds.includes(params.id)) {
+    return (
+      <div className="accommodation-container">
+        {logements.map((logement, index) => {
+          return logement.id === params.id ? (
+            <div key={`${index}`}>
+              <AccommodationSlide logement={logement} />
+              <AccommodationDetails logement={logement} />
+              <AccommodationMoreDetails logement={logement} />
+            </div>
+          ) : null;
+        })}
+      </div>
+    );
+  } else {
+    return <Error />;
+  }
 }
 
 export default Accommodation;
