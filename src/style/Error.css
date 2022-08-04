@@ -58,9 +58,22 @@
 
   .error-404 p {
     font-size: 18px;
+    width: 235px;
+    margin: auto;
+    padding-bottom: 182px;
   }
 
   .link-error {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .error-404 h2 {
+    margin-top: 140px;
+  }
+
+  .error-404 p {
+    padding-bottom: 140px;
   }
 }
