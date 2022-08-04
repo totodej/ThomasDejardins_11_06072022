@@ -10,6 +10,7 @@ import Error from "../pages/Error";
 function Accommodation() {
   const params = useParams();
   const logementIds = [];
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
